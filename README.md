@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/eZ_U6wFI)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18659879)
 # Práctica 2. Estructura de control iterativa
-
-Plantilla para el ejercicio de la práctica 2
+# Jose Javier Perez Ledesma
+Este codigo se trato del Cifrado de Cesar que es una tecnica de cifrado en el que cada letra se tiene que reemplazar por otra para formar la palabra correcta y en la primera parte del codigo llamado cifrar.py se cifra un mensaje codificado el cual devera elegir un numero k del lugar de desplazamiento sea 3 menor igual a k y menor igual a 15 y este contiene el numero k para poder desifrar el mensaje, ocupamos import random para generar un numero aleatorio y random.randit genera un numero k y con la segunda parte del codigo llamado desifrar.py las cosas se invierten ya que en vez de que el codigo me desifre la palabra, el mensaje codificado me lo tine que desifrar usando los anteriores datos mencionados, y con todos estos datos los ocupo para realizar la estructura de control iterativa 
