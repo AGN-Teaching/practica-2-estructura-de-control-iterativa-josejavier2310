@@ -9,7 +9,7 @@ def cifrar_mensaje(mensaje, k): # Resive un mensaje y numero de desplazamiento
     mensaje_cifrado = "" # Inicializamos una cadena vacia para almacenar el mensaje cifrado
     for caracter in mensaje:
         if caracter.isalpha(): # Si es una letra
-            ascii_offset = 65 if caracter.isupper() else 97 # Determina si es mayuscula
+            ascii_offset = 65 if caracter.isupper() else 97 # Determina si es mayuscula o minuscula
             nuevo_caracter = chr((ord(caracter) - ascii_offset + k) % 26 + ascii_offset) # Formula del cifrado
             mensaje_cifrado += nuevo_caracter
         else:
