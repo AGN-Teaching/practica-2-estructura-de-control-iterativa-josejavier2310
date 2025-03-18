@@ -1,4 +1,3 @@
-# Plant
 # Introduccion
 print("Practica 2")
 print("Estructura de control Iterativa")
